@@ -14,9 +14,9 @@
 <script>
 import { RouterLink } from 'vue-router'
 
-export default { 
+export default {
   name: 'MyNavigation',
-  components: { RouterLink },
+  components: { RouterLink }
 }
 </script>
 
@@ -25,14 +25,15 @@ $gap: 0.5rem;
 
 #my-navigation {
   grid-area: nav;
-  
+
   &__icon {
     height: 60px;
     display: flex;
     font-size: 2rem;
     align-items: center;
   }
-  &, &__links {
+  &,
+  &__links {
     gap: $gap;
     padding: 0;
     display: flex;

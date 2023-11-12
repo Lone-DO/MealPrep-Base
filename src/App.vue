@@ -12,12 +12,11 @@ import MyHeader from './components/MyHeader.vue'
 import MyNavigation from './components/MyNavigation.vue'
 
 export default {
-  components: { RouterView, MyHeader, MyNavigation },
+  components: { RouterView, MyHeader, MyNavigation }
 }
-
 </script>
 
-<style lang='scss'>
+<style lang="scss">
 #app {
   padding: 2rem;
   margin: 0 auto;
@@ -29,12 +28,11 @@ export default {
     grid-template-rows: 60px 1fr;
     grid-template-columns: 80px 1fr;
 
-    grid-template-areas: "nav header" "nav content";
+    grid-template-areas: 'nav header' 'nav content';
   }
   #content {
     grid-area: content;
     padding: 0.5rem;
   }
 }
-
 </style>

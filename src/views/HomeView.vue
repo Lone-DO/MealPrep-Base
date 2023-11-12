@@ -6,10 +6,8 @@
 
 <script>
 export default {
-  name: 'HomeView',
+  name: 'HomeView'
 }
 </script>
 
-<style lang="scss">
-  
-</style>
+<style lang="scss"></style>
