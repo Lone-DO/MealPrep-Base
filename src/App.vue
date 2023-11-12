@@ -21,14 +21,19 @@ export default {
 #app {
   padding: 2rem;
   margin: 0 auto;
-  max-width: 1280px;
   font-weight: normal;
 
   @media (min-width: 1024px) {
     display: grid;
-    padding: 0 2rem;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: "nav header" "nav main";
+    padding: 0;
+    grid-template-rows: 60px 1fr;
+    grid-template-columns: 80px 1fr;
+
+    grid-template-areas: "nav header" "nav content";
+  }
+  #content {
+    grid-area: content;
+    padding: 0.5rem;
   }
 }
 

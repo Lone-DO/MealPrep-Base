@@ -1,6 +1,5 @@
 <template>
   <header id="my-header">
-    <i class="fa-solid fa-plate-wheat"></i>
     <h1>MealPrep.org</h1>
   </header>
 </template>
@@ -15,6 +14,7 @@ export default {
 #my-header {
   gap: 0.5rem;
   display: flex;
+  grid-area: header;
   align-items: center;
   svg {
     font-size: 2rem;
